@@ -1,2 +1,1 @@
-# dashboard
-WIP
+# Bref Dashboard
