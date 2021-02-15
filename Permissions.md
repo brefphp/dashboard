@@ -1,10 +1,8 @@
 # Permissions for the Bref Dashboard
 
-The [Bref Dashboard](https://dashboard.bref.sh/)is an application running on your computer.
+The [Bref Dashboard](https://dashboard.bref.sh/) is an application that runs on your computer.
 
-To show data from your AWS account, the application uses the official AWS SDK to query the AWS API.
-
-And to authenticate the AWS API, **it uses the IAM credentials that are set up on your computer.**
+To show data from your AWS account, the application uses the official AWS SDK to query the AWS API. And to authenticate the AWS API, **it uses the IAM credentials that are set up on your computer.**
 
 ## AWS credentials
 
@@ -35,4 +33,8 @@ If you are struggling, [open a GitHub discussion](https://github.com/brefphp/das
 
 Since the Bref Dashboard uses the IAM credentials from `~/.aws/credentials`, it will have the permissions from those credentials.
 
-In other words, **the dashboard is like the `aws` CLI, but it's a UI**.
+This is a good thing: **AWS administrators do not have to think about creating new permissions**. The developers that already have access to some features of the AWS account will be able to use the Bref Dashboard with their current permissions.
+
+Here is a concrete example: if a developer has read-only access to a specific Lambda function and S3 bucket, then they will be able to use the AWS Dashboard on those resources. The Dashboard will not be able to do anything else, because it uses the developer's credentials.
+
+To summarize, grant access to AWS resources, and the Dashboard will reflect that. It is no different than the official AWS CLI.
