@@ -17,11 +17,9 @@ That means there are 2 scenarios:
 - You have already set up AWS credentials on your computer: the Bref Dashboard will work out of the box.
 - You haven't: you will need to configure AWS credentials
 
-### Setting up credentials
+### Configuring credentials
 
-You are welcome to follow [the official AWS guide on setting up credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-config).
-
-[This illustrated guide](https://bref.sh/docs/installation/aws-keys.html) can also help.
+First, create IAM access keys by following [the official AWS guide on setting up credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-config). This [simpler guide](https://bref.sh/docs/installation/aws-keys.html) can also help.
 
 Then, configure access keys by running `aws configure` or manually creating the `~/.aws/credentials` file:
 
@@ -32,3 +30,9 @@ aws_secret_access_key = je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
 ```
 
 If you are struggling, [open a GitHub discussion](https://github.com/brefphp/dashboard/discussions) to get some help.
+
+## Permissions
+
+Since the Bref Dashboard uses the IAM credentials from `~/.aws/credentials`, it will have the permissions from those credentials.
+
+In other words, **the dashboard is like the `aws` CLI, but it's a UI**.
