@@ -40,3 +40,5 @@ This is a good thing: **AWS administrators do not have to think about creating n
 Here is a concrete example: if a developer has read-only access to a specific Lambda function and S3 bucket, then they will be able to use the AWS Dashboard on those resources. The Dashboard will not be able to do anything else, because it uses the developer's credentials.
 
 To summarize, grant access to AWS resources, and the Dashboard will reflect that. It is no different than the official AWS CLI.
+
+[< Back to the documentation](https://github.com/brefphp/dashboard)
