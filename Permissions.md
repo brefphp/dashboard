@@ -51,9 +51,11 @@ In order to work, the Bref Dashboard must have the following permissions:
 
 All other permissions are optional.
 
-To be able to open a CloudFormation stack (also called an "application" in the Dashboard), the user must be able to describe the stack:
+To be able to open a CloudFormation stack (called an "application" in the Dashboard), the user must be able to list the stack's resources:
 
 - `cloudformation:DescribeStackResources`
+
+The dashboard will try to load more information (e.g. get metrics, logs, etc.), but those are optional.
 
 ## IAM profiles
 
