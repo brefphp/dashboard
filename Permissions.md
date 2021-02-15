@@ -1,3 +1,5 @@
+[< Back to the documentation](https://github.com/brefphp/dashboard)
+
 # Permissions for the Bref Dashboard
 
 The [Bref Dashboard](https://dashboard.bref.sh/) is an application that runs on your computer.
