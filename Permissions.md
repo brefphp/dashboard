@@ -41,6 +41,20 @@ Here is a concrete example: if a developer has read-only access to a specific La
 
 To summarize, grant access to AWS resources, and the Dashboard will reflect that. It is no different than the official AWS CLI.
 
+### Minimal permissions
+
+In order to work, the Bref Dashboard must have the following permissions:
+
+- `cloudformation:ListStacks`: in order to let the user select a stack.
+
+  Note that while this permissions grants listing all stacks, it doesn't grant **accessing all stacks**: only listing their names.
+
+All other permissions are optional.
+
+To be able to open a CloudFormation stack (also called an "application" in the Dashboard), the user must be able to describe the stack:
+
+- `cloudformation:DescribeStackResources`
+
 ## IAM profiles
 
 The Bref Dashboard supports all IAM profiles configured in `~/.aws/credentials`. When selecting an application, you can easily change region and AWS profile:
