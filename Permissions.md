@@ -41,4 +41,10 @@ Here is a concrete example: if a developer has read-only access to a specific La
 
 To summarize, grant access to AWS resources, and the Dashboard will reflect that. It is no different than the official AWS CLI.
 
+## IAM profiles
+
+The Bref Dashboard supports all IAM profiles configured in `~/.aws/credentials`. When selecting an application, you can easily change region and AWS profile:
+
+![](https://i.imgur.com/ArseGsc.png)
+
 [< Back to the documentation](https://github.com/brefphp/dashboard)
