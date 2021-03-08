@@ -8,5 +8,5 @@ Ask questions, request new features or report bugs in [**Discussions 💬**](htt
 
 ## Documentation
 
-- [Permissions](Permissions.md)
 - [Changelog](change-log.md)
+- [Permissions](Permissions.md)
