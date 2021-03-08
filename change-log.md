@@ -1,3 +1,11 @@
+## 2021-03-08
+
+Queues: you can now send messages to a SQS queue.
+
+## 2021-03-04
+
+Various bug fixes and improvements in the Logs tab.
+
 ## 2021-02-10
 
 New databases screen: it now shows DB metrics, and supports RDS DB instances as well as clusters (for example for RDS serverless).
