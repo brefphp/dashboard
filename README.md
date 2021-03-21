@@ -1,6 +1,6 @@
 👋 Welcome,
 
-This is the documentation for the Bref Dashboard.
+This is the documentation for the [**Bref Dashboard**](https://download.dashboard.bref.sh/).
 
 *The dashboard is currently in beta (free to use during beta). [Give it a try](https://download.dashboard.bref.sh/).*
 
