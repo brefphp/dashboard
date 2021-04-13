@@ -1,3 +1,7 @@
+## 2021-04-13
+
+Users do not have to be allowed to list CloudFormation stacks anymore. In that case, [they will be prompted to add stacks by name](https://twitter.com/matthieunapoli/status/1382017987939553280). This is great for teams that don't want to give broad permissions to everyone.
+
 ## 2021-03-08
 
 Queues: you can now send messages to a SQS queue.
