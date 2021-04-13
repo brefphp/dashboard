@@ -43,19 +43,18 @@ To summarize, grant access to AWS resources, and the Dashboard will reflect that
 
 ### Minimal permissions
 
-In order to work, the Bref Dashboard must have the following permissions:
+The Bref Dashboard does not require broad permissions.
 
-- `cloudformation:ListStacks`: in order to let the user select a stack.
+- **Nice to have:** `cloudformation:ListStacks` (allows listing CloudFormation stack names).
 
-  Note that while this permissions grants listing all stacks, it doesn't grant **accessing all stacks**: only listing their names.
+  This lets the user list all the deployed CloudFormation stacks (aka "applications"), which is pretty useful. However, this permission **is optional**: without it, the user will have to type the name of the CloudFormation stack they want to view.
 
-All other permissions are optional.
+- **Required:** the user must be able to list the resources of the CloudFormation stacks they want to access in the dashboard:
 
-To be able to open a CloudFormation stack (called an "application" in the Dashboard), the user must be able to list the stack's resources:
+  - `cloudformation:ListStackResources`
+  - `cloudformation:DescribeStackResources`
 
-- `cloudformation:DescribeStackResources`
-
-The dashboard will try to load more information (e.g. get metrics, logs, etc.), but those are optional.
+- **All other permissions are optional:** the dashboard will try to load more information (e.g. get metrics, logs, etc.), but will gracefully support failures.
 
 ## IAM profiles
 
