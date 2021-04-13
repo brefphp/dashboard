@@ -54,6 +54,8 @@ The Bref Dashboard does not require broad permissions.
   - `cloudformation:ListStackResources`
   - `cloudformation:DescribeStackResources`
 
+  It doesn't have to be "all stacks". Administrators can, for example, let a developer access only a specific stack (i.e. a specific application).
+
 - **All other permissions are optional:** the dashboard will try to load more information (e.g. get metrics, logs, etc.), but will gracefully support failures.
 
 ## IAM profiles
