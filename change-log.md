@@ -1,3 +1,9 @@
+## 2022-12-02
+
+Logs for a single invocation were broken in some situations. This should now be fixed!
+
+Regions were also re-organized in the home view to put the most popular regions first.
+
 ## 2021-04-13
 
 Users do not have to be allowed to list CloudFormation stacks anymore. In that case, [they will be prompted to add stacks by name](https://twitter.com/matthieunapoli/status/1382017987939553280). This is great for teams that don't want to give broad permissions to everyone.
