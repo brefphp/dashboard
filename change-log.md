@@ -1,3 +1,9 @@
+## 2022-12-03
+
+You can now search secrets.
+
+Added a button to reload AWS credentials, e.g. when SSO tokens have expired.
+
 ## 2022-12-02
 
 Logs for a single invocation were broken in some situations. This should now be fixed!
