@@ -2,6 +2,8 @@
 
 You can now search secrets.
 
+When there are no databases in the application (i.e. the current stack), the "databases" page now shows all databases of the same region.
+
 Added a button to reload AWS credentials, e.g. when SSO tokens have expired.
 
 ## 2022-12-02
