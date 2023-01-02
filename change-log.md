@@ -1,3 +1,7 @@
+## 2023-01-02
+
+You can now read the changelog in the app!
+
 ## 2022-12-03
 
 You can now search secrets.
