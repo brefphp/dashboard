@@ -58,6 +58,14 @@ The Bref Dashboard does not require broad permissions.
 
 - **All other permissions are optional:** the dashboard will try to load more information (e.g. get metrics, logs, etc.), but will gracefully support failures.
 
+### Example IAM policy
+
+If you need to create an IAM user and attach permissions to it, you can use that policy example:
+
+https://github.com/brefphp/dashboard/blob/main/Permissions/iam-policy.json
+
+It contains enough permissions for all features in the Bref Dashboard to work.
+
 ## IAM profiles
 
 The Bref Dashboard supports all IAM profiles configured in `~/.aws/credentials`. When selecting an application, you can easily change region and AWS profile:
