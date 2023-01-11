@@ -1,3 +1,7 @@
+## 2023-01-11
+
+The Bref Dashboard will soon come out of beta, read more about [the v1.0 launch here](https://github.com/brefphp/dashboard/blob/main/Launch.md).
+
 ## 2023-01-02
 
 You can now read the changelog in the app!
