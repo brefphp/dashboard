@@ -1,3 +1,8 @@
+## 2023-02-11
+
+AWS profiles using MFA (multi-factor authentication) are now supported!
+
+
 ## 2023-01-24
 
 The Bref Dashboard is now out of beta 🎉
