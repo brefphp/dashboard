@@ -1,7 +1,14 @@
+## 2023-02-24
+
+Multiple bugfixes in logs:
+
+- Fixed older logs not being cleared when refreshing
+- Improved log tailing (sometimes logs were duplicated)
+- Fixed logs hidden behind the top menu bar
+
 ## 2023-02-11
 
 AWS profiles using MFA (multi-factor authentication) are now supported!
-
 
 ## 2023-01-24
 
