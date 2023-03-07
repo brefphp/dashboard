@@ -1,3 +1,11 @@
+## 2023-03-07
+
+New "Terminal" feature to run CLI commands in AWS Lambda 🎉
+
+Works with Laravel Artisan, Symfony Console, and any function you deployed with the [Bref `console` layer](https://bref.sh/docs/runtimes/console.html).
+
+To use it, open the Lambda function in the dashboard. You should see a new "Terminal" section.
+
 ## 2023-02-24
 
 Multiple bugfixes in logs:
