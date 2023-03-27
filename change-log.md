@@ -1,6 +1,12 @@
+## 2023-03-27
+
+You can now **disable regions** in the region selector!
+
+Useful if you are working in 1-2 regions and dislike having 15 regions showing up.
+
 ## 2023-03-07
 
-New "Terminal" feature to run CLI commands in AWS Lambda 🎉
+New "**Terminal**" feature to run CLI commands in AWS Lambda 🎉
 
 Works with Laravel Artisan, Symfony Console, and any function you deployed with the [Bref `console` layer](https://bref.sh/docs/runtimes/console.html).
 
