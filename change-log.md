@@ -1,3 +1,7 @@
+## 2023-04-14
+
+Fixed a bug when running CLI commands that run for more than 60 seconds (commands were retried).
+
 ## 2023-03-27
 
 You can now **disable regions** in the region selector!
