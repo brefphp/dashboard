@@ -1,3 +1,7 @@
+## 2023-05-11
+
+Fixed a bug for users with an empty `default` profile.
+
 ## 2023-04-14
 
 Fixed a bug when running CLI commands that run for more than 60 seconds (commands were retried).
