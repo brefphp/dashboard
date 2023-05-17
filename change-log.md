@@ -1,3 +1,9 @@
+## 2023-05-17
+
+Your desktop application should update itself (if not, [you can download the latest version here](https://download.dashboard.bref.sh/)). The new version includes a lot of security updates. Let me know if you have any trouble.
+
+This update also prepares the way for SSO support. I've been working on it for several days now, hopefully this shouldn't be long.
+
 ## 2023-05-11
 
 Fixed a bug for users with an empty `default` profile.
