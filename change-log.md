@@ -4,6 +4,10 @@
 
 If you use AWS SSO (aka IAM Identity Center) in your AWS profile, these are now supported! You will need to update the app (it will update automatically) and your SSO profiles will now work.
 
+**Update:** the app fails to auto-update on macOS, so the feature will not work 😬 You can manually download the latest version (`dmg`) here: [github.com/brefphp/dashboard/releases](https://github.com/brefphp/dashboard/releases).
+
+Sorry about that, I'm working on fixing this!
+
 ## 2023-05-17
 
 Your desktop application should update itself (if not, [you can download the latest version here](https://download.dashboard.bref.sh/)). The new version includes a lot of security updates. Let me know if you have any trouble.
