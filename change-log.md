@@ -1,3 +1,9 @@
+## 2023-05-22
+
+**SSO is now supported!** 🎉
+
+If you use AWS SSO (aka IAM Identity Center) in your AWS profile, these are now supported! You will need to update the app (it will update automatically) and your SSO profiles will now work.
+
 ## 2023-05-17
 
 Your desktop application should update itself (if not, [you can download the latest version here](https://download.dashboard.bref.sh/)). The new version includes a lot of security updates. Let me know if you have any trouble.
