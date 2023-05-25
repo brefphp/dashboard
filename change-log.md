@@ -1,3 +1,9 @@
+## 2023-05-25
+
+Analyze your cold starts!
+
+In a Lambda function, click the "Analyze cold starts" button. You will get an overview of cold starts duration and frequency.
+
 ## 2023-05-22
 
 **SSO is now supported!** 🎉
