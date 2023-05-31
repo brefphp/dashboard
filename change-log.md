@@ -1,3 +1,9 @@
+## 2023-05-31
+
+You can now see the number of messages being processed (in-flight) in the **Queues** tab.
+
+Additionally, the number of "messages queued" now includes messages that are delayed.
+
 ## 2023-05-25
 
 Analyze your cold starts!
