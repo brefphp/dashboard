@@ -1,3 +1,9 @@
+## 2023-06-08
+
+You can now **retry all failed messages** of a SQS Dead Letter Queue.
+
+Previously you had to retry each message manually. Now you can also retry all messages at once.
+
 ## 2023-05-31
 
 You can now see the number of messages being processed (in-flight) in the **Queues** tab.
