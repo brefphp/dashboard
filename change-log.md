@@ -1,3 +1,9 @@
+## 2023-06-12
+
+**Cost analysis!**
+
+In each application, you can now click the "Total costs" panel to view a detailed view of the costs for each service.
+
 ## 2023-06-08
 
 You can now **retry all failed messages** of a SQS Dead Letter Queue.
