@@ -1,3 +1,27 @@
+## 2023-06-19
+
+**Brand new log viewer!**
+
+The log viewer has been entirely rewritten:
+
+- Searching and loading logs in the past works all the time now − if you had any frustration with logs in the Dashboard, that should be the big fix
+- Search using **regex** if you want
+- Loading the logs of a single Lambda invocation now works all the time (no more "Could not find the START line") thanks to a much better algorithm, and it will now even show logs from the cold start (before the START line)
+- You can now clear the screen: super helpful when "Live tailing" and you want to only see the new logs
+- Display up to 1,000 logs max, instead of 100 previously
+- When there are more than 1,000 logs, you now get a warning (so you know you should filter down further)
+-Lots of quality of life improvements:
+    - dim out more boring logs (even those produced by PHP-FPM)
+    - shorten the function names to give more room to
+    - fixed many small bugs, e.g. when clicking a function name to
+    - fix live tailing in some scenarios
+    - the UI should be much more stable, especially when clicking lots of filters/buttons and re-loading logs before the first one wasn't finished loading
+    - you can also stop the current query
+    - the "Loading" indicator now shows how many logs are being parsed for long-running queries (so that you see some progress is happening)
+- The downsides: loading logs is slightly slower (2-3s instead of 1-2s), and logs have a 60s delay unless you activate "Live tailing"
+
+Let me know if you have any issues!
+
 ## 2023-06-12
 
 **Cost analysis!**
